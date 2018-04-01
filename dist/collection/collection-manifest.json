@@ -1,0 +1,39 @@
+{
+  "components": [
+    {
+      "tag": "raxx-google-maps",
+      "dependencies": [],
+      "componentClass": "RaxxGoogleMaps",
+      "componentPath": "components/raxx-google-maps/raxx-google-maps.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/raxx-google-maps/raxx-google-maps.css"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "apikey",
+          "type": "String",
+          "attr": "apikey"
+        }
+      ],
+      "methods": [
+        {
+          "name": "addMarker"
+        },
+        {
+          "name": "getCenter"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.7.7",
+    "typescriptVersion": "2.7.2"
+  },
+  "bundles": []
+}
